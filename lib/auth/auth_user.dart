@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  final String baseUrl = "http://localhost:1337"; // Replace with your Strapi backend URL
+  final String baseUrl = "https://strapi-backend-6y46.onrender.com"; // Replace with your Strapi backend URL
 
   Future<Map<String, dynamic>> signUp(String username, String email, String password) async {
     final response = await http.post(

@@ -91,7 +91,7 @@ class _SignUpFormState extends State<SignUpForm> {
     final String password = _passwordController.text;
 
     // Perform signup logic here
-    final Uri signupUri = Uri.parse('http://localhost:1337/api/auth/local/register');
+    final Uri signupUri = Uri.parse('https://strapi-backend-6y46.onrender.com/api/auth/local/register');
 
     final response = await http.post(
       signupUri,

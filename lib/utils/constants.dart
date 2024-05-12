@@ -1,1 +1,1 @@
-const String serverUrl = 'ws://localhost:1440/websocket';
+const String serverUrl = 'wss://strapi-backend-6y46.onrender.com/websocket';

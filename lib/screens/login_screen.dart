@@ -69,7 +69,7 @@ class _LoginFormState extends State<LoginForm> {
     final String password = _passwordController.text;
 
     // Perform login logic here
-    final Uri loginUri = Uri.parse('http://localhost:1337/api/auth/local');
+    final Uri loginUri = Uri.parse('https://strapi-backend-6y46.onrender.com/api/auth/local');
 
     final response = await http.post(
       loginUri,
