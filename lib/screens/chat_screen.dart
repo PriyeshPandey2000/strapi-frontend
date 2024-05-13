@@ -20,7 +20,7 @@ class _ChatScreenState extends State<ChatScreen> {
   void initState() {
     super.initState();
     // Initialize WebSocketService with WebSocketChannel
-    final channel = WebSocketChannel.connect(Uri.parse('wss://strapi-backend-6y46.onrender.com'));
+    final channel = WebSocketChannel.connect(Uri.parse('wss://strapi-backend-6y46.onrender.com:1440'));
     webSocketService = WebSocketService(channel);
 
     // Receive messages and update UI
