@@ -76299,7 +76299,7 @@ A.mK.prototype={
 ag(){return new A.LT(new A.k_(B.cq,$.as()),B.k)}}
 A.LT.prototype={
 aH(){this.b3()
-var s=new A.a8J(A.axY(A.fx("wss://strapi-backend-6y46.onrender.com"),null))
+var s=new A.a8J(A.axY(A.fx("wss://strapi-backend-6y46.onrender.com:1440"),null))
 this.d=s
 s.agv(new A.aae(this))},
 K(a){return A.ajB(A.aih(B.O4),new A.um(new A.aac(this),null,null,null,t.KL))},
